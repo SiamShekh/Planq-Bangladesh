@@ -13,15 +13,7 @@ const Nav = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span className="[&>svg]:w-7">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                fill="currentColor"
-                                className="h-7 w-7">
-                                <path
-                                    d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
-                                     />
-                            </svg>
+                            <img src="https://planq.network/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252F9770b285ecd94682a83d82643e538cdf%252F352051f7ea1344578a069ae40f99d9d1&w=96&q=75" alt="" className="w-7 h-7" />
                         </span>
                     </button>
 
@@ -33,8 +25,8 @@ const Nav = () => {
                             className="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
                             href="#">
                             <img
-                                src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp"
-                                className="h-4"
+                                src="https://planq.network/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252F9770b285ecd94682a83d82643e538cdf%252F352051f7ea1344578a069ae40f99d9d1&w=96&q=75"
+                                className="h-7"
                                 alt="TE Logo"
                                 loading="lazy" />
                         </a>
