@@ -1,6 +1,6 @@
 const Nav = () => {
     return (
-        <div className="bg-[#FBFBFB] py-2 z-50 top-0 sticky w-full shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10">
+        <div className="bg-[#FBFBFB] py-2 z-50 top-0 fixed w-full shadow-md shadow-black/5 dark:bg-neutral-600 dark:shadow-black/10">
             <div
                 className="flex-no-wrap relative flex w-full items-center justify-between mx-auto max-w-[1200px]  lg:flex-wrap lg:justify-start lg:py-4">
                 <div className="flex w-full flex-wrap items-center justify-between px-3">

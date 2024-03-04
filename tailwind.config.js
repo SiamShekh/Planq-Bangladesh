@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         "Alkatra": "Alkatra, system-ui",
         "Alinur1": "Alinur1, system-ui",
+        "Teko": "Teko, sans-serif",
 
       }
     },
