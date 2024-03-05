@@ -30,7 +30,7 @@ const Featured_User = () => {
                 <Link to={'https://combot.org/c/-1001974489754/a'} className="border px-5 py-2 font-mono bg-white rounded-lg border-cyan-500">View All</Link>
             </div>
             {/* For large devices */}
-            <div className="bg-white lg:flex w-full rounded-2xl border-gray-200 border-2 p-5 mt-5 hidden justify-between items-center">
+            <div className="bg-white md:flex w-full rounded-2xl border-gray-200 border-2 p-5 mt-5 hidden justify-between items-center">
                 <div className="">
                     <div className="flex items-center gap-5">
                         <div className="avatar">
@@ -93,7 +93,7 @@ const Featured_User = () => {
             </div>
             
             {/* For small Devices */}
-            <div className="bg-white w-full lg:hidden rounded-2xl border-gray-200 border-2 p-5 mt-5 flex flex-col justify-between items-center">
+            <div className="bg-white w-full md:hidden rounded-2xl border-gray-200 border-2 p-5 mt-5 flex flex-col justify-between items-center">
                 <div className="">
                     <div className="flex items-center gap-5">
                         <div className="avatar">

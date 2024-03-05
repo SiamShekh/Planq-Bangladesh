@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Featured_Carosoule from "./Featured_Carosoule";
 import Featured_User from "./Featured_User";
 import MarqueeProjects from "./MarqueeProjects";
+import Featured_Blog from "./Featured_Blog";
 
 const Home = () => {
     return (
@@ -62,10 +63,11 @@ const Home = () => {
                     <div className="mt-5">
                         <Featured_Carosoule />
                         <Featured_User />
+                        <Featured_Blog />
                     </div>
                 </div>
             </div>
-            <MarqueeProjects/>
+            <MarqueeProjects />
         </div>
     );
 };
